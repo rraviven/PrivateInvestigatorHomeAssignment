@@ -10,6 +10,7 @@ After the above steps get completed successfully we are printing the results in 
 **How to run?**
 
 step 1: clone the git repository by running the command **git clone https://github.com/rraviven/PrivateInvestigatorHomeAssignment.git**
+
 step 2: Run the main function inside the file (**PrivateInvestigatorMain**) under src/com/assignment/privateinvestigator/main folder.
 ...
 
