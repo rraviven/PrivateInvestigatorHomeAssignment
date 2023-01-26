@@ -1,28 +1,25 @@
 ## Private Investigator Assignment
 
-### Overview of the solution:'
-This solution initially reads the input.txt file splits each line by empty space and fills the Map data structure used inside the program with key as wordLength an value as List of List of Strings which is to group the senteces by the length of the words since two senteces differ more than one word is not considered to be similar.
+### Overview of the solution:
+This solution initially reads the input.txt file splits each line by empty space and fills the Map data structure used inside the program with key as wordLength an value as List of List of Strings which is to group the sentences by the length of the words since two sentences differ more than one word is not considered to be similar.
 Once we group then we are finding if the sentences are differing only by one word and adding it to the set.
 After the above steps get completed successfully we are printing the results in the expected format to the output file
-...
-
 
 **How to run?**
 
 step 1: clone the git repository by running the command **git clone https://github.com/rraviven/PrivateInvestigatorHomeAssignment.git**
 
 step 2: Run the main function inside the file (**PrivateInvestigatorMain**) under src/com/assignment/privateinvestigator/main folder.
-...
 
 **1. What can you say about the complexity of your code?**
 
-Currently the complexity of the code is dependent on two main factors which is the number of words in the sentence (word length) and also the number of senteces in each group i.e number of senteces in with same word length
+Currently the complexity of the code is dependent on two main factors which is the number of words in the sentence (word length) and also the number of sentences in each group i.e number of sentences in with same word length
 
 
 **2. How will your algorithm scale?**
 
-This algorithm is a simple and straight forward solution in case if in future the number of senteces scale to the max then we can utilize the concept of multithreading to do the actual comparison of the sentences or this can be done as a asyncronous process/job
-...
+This algorithm is a simple and straight forward solution in case if in future the number of sentences scale to the huge amount then we can utilize the concept of multithreading to do the actual comparison of the sentences or this can be done as a asynchronous process/job
+
 
 **3. If you had two weeks to do this task, what would you have done differently? What would be better?**
 
