@@ -13,12 +13,12 @@ import java.util.Map;
 public class PrivateInvestigatorMain {
 	public static void main(String args[]) {
 		
-		String inputFilePath = "src/resources/input/";
+		String inputFilePath = "src/resources/input/"; //Please change the file path if required
 		String outFilePath = "src/resources/output/";
 		
 		/**
-		 Grouping strings according to no. of words in sentences.
-		 No Of Words In Sentence vs corresponding list of sentences
+		 	Grouping strings according to no. of words in sentences
+		 	No Of Words In Sentence vs corresponding list of sentences
 		 */
 		Map<Integer, List<List<String>>> sizeVsSplittedSentences = new HashMap<>();
 		Map<Integer, List<String>> sizeVsSentences = new HashMap<>();
@@ -28,8 +28,8 @@ public class PrivateInvestigatorMain {
 			
 			for(Map.Entry<Integer, List<List<String>>> entry : sizeVsSplittedSentences.entrySet()) {
 				
-				System.out.println("Processing sentences with word count = " 
-						+ Integer.valueOf(entry.getKey() - 2) + ", no. of sentences = " + entry.getValue().size()); // -2 for excluding Date and time
+				System.out.println("Processing sentences with word count = "
+						+ (entry.getKey() - 2) + ", no. of sentences = " + entry.getValue().size()); // -2 for excluding Date and time
 
 				List<List<String>> splittedSentences = entry.getValue();
 				Map<Integer, LinkedHashSet<Integer>> globalKthPositionVsGroup = new HashMap<>();
