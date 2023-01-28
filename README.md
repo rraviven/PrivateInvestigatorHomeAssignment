@@ -11,6 +11,8 @@ step 1: clone the git repository by running the command **git clone https://gith
 
 step 2: Run the main function inside the file (**PrivateInvestigatorMain**) under src/com/assignment/privateinvestigator/main folder.
 
+**Note:** Input file under src/resources/input folder can be modified to test with different inputs
+
 **1. What can you say about the complexity of your code?**
 
 Currently the complexity of the code is dependent on two main factors which is the number of words in the sentence (word length) and also the number of sentences in each group i.e number of sentences in with same word length
@@ -27,5 +29,6 @@ If i had two weeks then I,
 1. Could have understood the problem and use case scenarios much better and also about the expected scale in the near future.
 2. Could have improved my solution by doing enough research on the string algorithms which might be a good fit for this solution.
 3. Could have written the code with proper unit testing
-4. Could have done performance testing by gathering multiple data sets
-5. could have spent more time on the design of the solution both high level as well as low level
+4. Could have done proper error/exception handling using custom exceptions
+5. Could have done performance testing by gathering multiple data sets
+6. could have spent more time on the design of the solution both high level as well as low level
